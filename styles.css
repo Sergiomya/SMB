@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Rubik&display=swap');
+
+.all-content {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:1200px) {
+    .all-content{
+    display: block;
+
+    }
+
+}
+
+
+/**
+* Step Block
+*/
+
+.body {
+    font-family: 'Rubik';
+    font-size: 16px;
+}
+
+.steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.step {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.step_current .step__icon {
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.step__text {
+    position: absolute;
+    top: 28px;
+    font-family: 'Rubik';
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.step_current .step__text {
+    text-decoration: underline;
+    top: 36px;
+}
+
+.step_next .step__text {
+    color: #5e5e5e;
+}
+
+/**
+* Divider Block
+*/
+
+.divider {
+    height: 2px;
+    background: #000;
+    width: 140px;
+    min-width: 50px;
+}
+
+.divider_next {
+    background: #cfcfcf;
+}
+
+/**
+* Content
+*/
+
+.content {
+    border: 1px solid #cfcfcf;
+    border-radius: 16px;
+}
+
+.back__text {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header__text {
+    font-weight: bold;
+}
+
+.bank__text {
+    justify-content: center;
+    text-align: center;
+}
+
+.bank_next .bank__text {
+    font-weight: 300;
+    color: #5e5e5e;
+}
+
+.header__separator {
+    border:1px solid #cfcfcf;
+    margin:auto;
+}
+
+.cards__separator {
+    display: flex;
+    border:1px solid #cfcfcf;
+    width: 95%;
+    margin: auto;
+}
+
+.cards-variant{
+    border: 1px solid #cfcfcf;
+    border-radius: 16px;
+}
+
+.cards-variant__text {
+    font-weight: bold;
+}
+
+.shopping {
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    width: auto;
+
+
+}
+
+.shopping__separator {
+    display: flex;
+    border:1px solid #cfcfcf;
+    width: 95%;
+    margin: auto;
+}
+
+.total__separator {
+    border:1px solid #cfcfcf;
+}
+
+.continue {
+    border-radius: 16px;
+    color: #fff;
+    background-color: #1BB66E;
+    border: none;
+    width: 100%;
+}
+
+.continue:hover {
+    background-color: #5e5e5e;
+}
+
+.shopping_header {
+    font-weight: bold;
+}
+
+.salad__number {
+    font-weight: bold;
+}
+
+.total__number {
+    font-weight: bold;
+}
+
+.right-side {
+    width: 100%;
+}
+
+
